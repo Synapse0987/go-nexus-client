@@ -45,6 +45,7 @@ type RawProxyRepository struct {
 
 	*Cleanup `json:"cleanup,omitempty"`
 	*Raw     `json:"raw,omitempty"`
+	*Replication `json:"replication,omitempty"`
 }
 
 type Raw struct {
